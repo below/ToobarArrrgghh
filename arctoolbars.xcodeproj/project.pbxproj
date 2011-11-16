@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB61C1DA1473C38600D2B374 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB61C1D91473C38600D2B374 /* UIKit.framework */; };
+		CB61C1DC1473C38600D2B374 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB61C1DB1473C38600D2B374 /* Foundation.framework */; };
+		CB61C1DE1473C38600D2B374 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB61C1DD1473C38600D2B374 /* CoreGraphics.framework */; };
+		CB61C1E61473C38600D2B374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB61C1E51473C38600D2B374 /* main.m */; };
+		CB61C1EA1473C38600D2B374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB61C1E91473C38600D2B374 /* AppDelegate.m */; };
+		CB61C1ED1473C38600D2B374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB61C1EC1473C38600D2B374 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB61C1D51473C38600D2B374 /* arctoolbars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arctoolbars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB61C1D91473C38600D2B374 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB61C1DB1473C38600D2B374 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB61C1DD1473C38600D2B374 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB61C1E11473C38600D2B374 /* arctoolbars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arctoolbars-Info.plist"; sourceTree = "<group>"; };
+		CB61C1E51473C38600D2B374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB61C1E71473C38600D2B374 /* arctoolbars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arctoolbars-Prefix.pch"; sourceTree = "<group>"; };
+		CB61C1E81473C38600D2B374 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB61C1E91473C38600D2B374 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB61C1EB1473C38600D2B374 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB61C1EC1473C38600D2B374 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB61C1D21473C38600D2B374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB61C1DA1473C38600D2B374 /* UIKit.framework in Frameworks */,
+				CB61C1DC1473C38600D2B374 /* Foundation.framework in Frameworks */,
+				CB61C1DE1473C38600D2B374 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB61C1CA1473C38600D2B374 = {
+			isa = PBXGroup;
+			children = (
+				CB61C1DF1473C38600D2B374 /* arctoolbars */,
+				CB61C1D81473C38600D2B374 /* Frameworks */,
+				CB61C1D61473C38600D2B374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB61C1D61473C38600D2B374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB61C1D51473C38600D2B374 /* arctoolbars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB61C1D81473C38600D2B374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB61C1D91473C38600D2B374 /* UIKit.framework */,
+				CB61C1DB1473C38600D2B374 /* Foundation.framework */,
+				CB61C1DD1473C38600D2B374 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB61C1DF1473C38600D2B374 /* arctoolbars */ = {
+			isa = PBXGroup;
+			children = (
+				CB61C1E81473C38600D2B374 /* AppDelegate.h */,
+				CB61C1E91473C38600D2B374 /* AppDelegate.m */,
+				CB61C1EB1473C38600D2B374 /* ViewController.h */,
+				CB61C1EC1473C38600D2B374 /* ViewController.m */,
+				CB61C1E01473C38600D2B374 /* Supporting Files */,
+			);
+			path = arctoolbars;
+			sourceTree = "<group>";
+		};
+		CB61C1E01473C38600D2B374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB61C1E11473C38600D2B374 /* arctoolbars-Info.plist */,
+				CB61C1E51473C38600D2B374 /* main.m */,
+				CB61C1E71473C38600D2B374 /* arctoolbars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB61C1D41473C38600D2B374 /* arctoolbars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB61C1F31473C38600D2B374 /* Build configuration list for PBXNativeTarget "arctoolbars" */;
+			buildPhases = (
+				CB61C1D11473C38600D2B374 /* Sources */,
+				CB61C1D21473C38600D2B374 /* Frameworks */,
+				CB61C1D31473C38600D2B374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arctoolbars;
+			productName = arctoolbars;
+			productReference = CB61C1D51473C38600D2B374 /* arctoolbars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB61C1CC1473C38600D2B374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "AVB Software";
+			};
+			buildConfigurationList = CB61C1CF1473C38600D2B374 /* Build configuration list for PBXProject "arctoolbars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB61C1CA1473C38600D2B374;
+			productRefGroup = CB61C1D61473C38600D2B374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB61C1D41473C38600D2B374 /* arctoolbars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB61C1D31473C38600D2B374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB61C1D11473C38600D2B374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB61C1E61473C38600D2B374 /* main.m in Sources */,
+				CB61C1EA1473C38600D2B374 /* AppDelegate.m in Sources */,
+				CB61C1ED1473C38600D2B374 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB61C1F11473C38600D2B374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB61C1F21473C38600D2B374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB61C1F41473C38600D2B374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arctoolbars/arctoolbars-Prefix.pch";
+				INFOPLIST_FILE = "arctoolbars/arctoolbars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB61C1F51473C38600D2B374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arctoolbars/arctoolbars-Prefix.pch";
+				INFOPLIST_FILE = "arctoolbars/arctoolbars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB61C1CF1473C38600D2B374 /* Build configuration list for PBXProject "arctoolbars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB61C1F11473C38600D2B374 /* Debug */,
+				CB61C1F21473C38600D2B374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB61C1F31473C38600D2B374 /* Build configuration list for PBXNativeTarget "arctoolbars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB61C1F41473C38600D2B374 /* Debug */,
+				CB61C1F51473C38600D2B374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB61C1CC1473C38600D2B374 /* Project object */;
+}
